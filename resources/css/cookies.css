@@ -1,0 +1,64 @@
+
+/*-------------------------------------------------------*/
+/* COOKIE STYLING CSS */
+/*-------------------------------------------------------*/
+
+/*This is how the Cookie Banner will look like in HTML, use it for styling reference:
+<body class=" cookiebanner">
+    <div id="cookie-law">
+        <div class"cookie-law-holder">
+            <p>TEXT<a href="#" rel="nofollow" title="">LINK</a>. <a><i></i></a></p>
+        </div>
+    </div>
+*/
+
+#cookie-law { 
+    max-width: 100%;
+    height: auto;
+    background-color: #e67e22; 
+    margin: 0; 
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+ 
+#cookie-law p { 
+    padding: 10px; 
+    font-size: 0.9em; 
+    font-weight: 400; 
+    text-align: center; 
+    color: #fff; 
+    margin: 0;
+}
+
+#cookie-law a:link,
+#cookie-law a:visited{
+    text-decoration: none;
+    color:#000;
+    transition: color 0.2s;
+}
+
+#cookie-law a:hover,
+#cookie-law a:active{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 2px;
+}
+
+#cookie-law .ion-ios-close{
+    font-size:1.5em;
+    margin-left: 20px;
+    position: absolute;
+    right: 20px;
+    vertical-align: middle;
+    margin-top: -6px;
+
+}
+
+/*-------------------------------------------------------*/
+/* SITE STYLING CSS */
+/*-------------------------------------------------------*/
+/*Simple CSS to remove the default margins at the edges of the browser window*/
+
+html, body{
+    margin: 0;
+}
